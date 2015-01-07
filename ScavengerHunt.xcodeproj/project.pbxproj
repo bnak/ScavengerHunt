@@ -12,6 +12,8 @@
 		D6C67E8519BA1BC2008C1B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C67E8319BA1BC2008C1B97 /* Main.storyboard */; };
 		D6C67E8719BA1BC2008C1B97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C67E8619BA1BC2008C1B97 /* Images.xcassets */; };
 		D6C67E9319BA1BC3008C1B97 /* ScavengerHuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67E9219BA1BC3008C1B97 /* ScavengerHuntTests.swift */; };
+		D6C67E9D19BA2B35008C1B97 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67E9C19BA2B35008C1B97 /* ListViewController.swift */; };
+		D6C67E9F19BA4C4F008C1B97 /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C67E9E19BA4C4F008C1B97 /* ScavengerHuntItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		D6C67E8C19BA1BC3008C1B97 /* ScavengerHuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScavengerHuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C67E9119BA1BC3008C1B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6C67E9219BA1BC3008C1B97 /* ScavengerHuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScavengerHuntTests.swift; sourceTree = "<group>"; };
+		D6C67E9C19BA2B35008C1B97 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D6C67E9E19BA4C4F008C1B97 /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerHuntItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				D6C67E7F19BA1BC2008C1B97 /* AppDelegate.swift */,
 				D6C67E8119BA1BC2008C1B97 /* ViewController.swift */,
 				D6C67E8319BA1BC2008C1B97 /* Main.storyboard */,
+				D6C67E9C19BA2B35008C1B97 /* ListViewController.swift */,
+				D6C67E9E19BA4C4F008C1B97 /* ScavengerHuntItem.swift */,
 				D6C67E8619BA1BC2008C1B97 /* Images.xcassets */,
 				D6C67E7D19BA1BC2008C1B97 /* Supporting Files */,
 			);
@@ -210,6 +216,8 @@
 			files = (
 				D6C67E8219BA1BC2008C1B97 /* ViewController.swift in Sources */,
 				D6C67E8019BA1BC2008C1B97 /* AppDelegate.swift in Sources */,
+				D6C67E9F19BA4C4F008C1B97 /* ScavengerHuntItem.swift in Sources */,
+				D6C67E9D19BA2B35008C1B97 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
